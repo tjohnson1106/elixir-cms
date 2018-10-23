@@ -1,8 +1,9 @@
 defmodule Cms.Content.Post do
-  # use Ecto.Schema
-  # import Ecto.Changeset
+  # imports
 
   @derive {Phoenix.Param, key: :slug}
+
+  # schema "posts"
 
   def create_changeset(post, attrs) do
     post

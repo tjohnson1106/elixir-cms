@@ -1,4 +1,7 @@
 defmodule Cms.Auth.User do
+  # imports
+  # schema "users"
+
   @create_fields ~w(name password email)a
   @optional_fields ~w(is_admin)a
 
